@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="FtM;^o]rL{.G}6X5Taxe" x="497" y="71"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="R0n~Q54OlCj7[-Mw,=/H"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="pxt-on-start" id="Gv1+Mv_YlM{hXlISD5Uq" x="198" y="129"><statement name="HANDLER"><block type="device_show_leds" id="-x=G`-aIoQP1I$O[W$ad"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement></block><block type="device_button_event" id="Q?}$dYvGOychnu,}V5-h" x="442" y="274"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="9$y4+ESw|mIMy%j42!F="><field name="LEDS">`
+        . # # . . 
+        # . . # . 
+        # # # # . 
+        # . . # . 
+        # . . # .
+        `</field></block></statement></block><block type="controls_if" id="0(ZRGo2j#zW!]Kue+ci0" disabled="true" x="97" y="499"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="vBwX^}$Skh?JGSRBS8sR" disabled="true"><field name="NAME">Button.A</field></block></value><next><block type="controls_if" id="T8XkE+gtJx[2-9-QR*KG" disabled="true"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="rNA_Dp}C}H._-km$n[Q4" disabled="true"><field name="NAME">Button.B</field></block></value><next><block type="controls_if" id="64HY$slv#^Z7rd^n4Rby" disabled="true"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="3vH3/F;;]Jb`h#$d8ni/" disabled="true"><field name="NAME">Button.AB</field></block></value></block></next></block></next></block><block type="device_button_event" id="6(E~Ia0n//3ghJqs8(,]" x="457" y="654"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="=Whb,Kya9h2wyc_O/;(3"><field name="LEDS">`
+        # # # . . 
+        # . . # . 
+        # # # . . 
+        # . . # . 
+        # # # . .
+        `</field></block></statement></block></xml>
